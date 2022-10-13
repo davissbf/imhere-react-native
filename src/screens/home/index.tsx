@@ -14,20 +14,22 @@ export const Home = () => {
       </Text>
 
       <Text style={style.eventDate}>
-        Sexta, 14 de outubto de 2022
+        Sexta, 14 de outubto de 2022.
       </Text>
 
-      <TextInput
-        style={style.input}
-        placeholder="Nome do Participante"
-        placeholderTextColor="#6B6B6B"
-      />
+        <View style={style.form}>
+          <TextInput
+            style={style.input}
+            placeholder="Nome do Participante"
+            placeholderTextColor="#6B6B6B"
+          />
 
-      <TouchableOpacity style={style.button} onPress={handleParticipantAdd}>
-        <Text style={style.buttonText}>
-        +
-        </Text>
-      </TouchableOpacity>
+          <TouchableOpacity style={style.button} onPress={handleParticipantAdd}>
+            <Text style={style.buttonText}>
+            +
+            </Text>
+          </TouchableOpacity>
+        </View>
     </View>
   );
 }

@@ -25,6 +25,8 @@ export const style = StyleSheet.create({
     borderRadius: 5,
     color: '#FFF',
     padding: 16,
+    flex: 1,
+    marginRight: 12,
   },
 
   buttonText: {
@@ -39,5 +41,11 @@ export const style = StyleSheet.create({
     backgroundColor: '#31CF67',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+
+  form: {
+    flexDirection: "row",
+    marginTop: 36,
+    marginBottom: 48,
   }
 });
