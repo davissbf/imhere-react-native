@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const style = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#131016',
@@ -44,6 +44,7 @@ export const style = StyleSheet.create({
   },
 
   form: {
+    width: '100%',
     flexDirection: "row",
     marginTop: 36,
     marginBottom: 48,
